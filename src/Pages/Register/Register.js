@@ -39,10 +39,10 @@ const Register = () => {
             </Button>
             <br />
             <h4 className="google mt-4">Or use one of these options</h4>
-            <Button onClick={signUsingGoogle} variant="primary" type="submit" className="register-btn mx-auto mt-2">
+         </Form>
+         <Button onClick={signUsingGoogle} variant="primary" type="submit" className="register-btn mx-auto mt-2">
                     Google Sign In
             </Button>
-         </Form>
         </div>
     );
 };
